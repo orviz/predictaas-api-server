@@ -1,4 +1,4 @@
-# Workflow Porcess
+# Workflow Process
 You should follow the GitFlow workflow for contibuting with this project, which is summed up below:
 
 ## 1. Create a branch
