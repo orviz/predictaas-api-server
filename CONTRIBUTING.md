@@ -1,4 +1,4 @@
-**Code Review Process**
+## Code Review Process
 
 - The code revision MUST be done through GitHub pull requests, with the following RECOMMENDED functionality:
      - Allows general and specific comments on the line or lines that need to be reviewed.
