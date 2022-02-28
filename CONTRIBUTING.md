@@ -1,3 +1,22 @@
+# Issue Reporting
+
+There are different type of issues you can report, from bugs in the code to documentation issues. 
+To report an issue go to the  Issues tab and press "New Issue". 
+Each issue must have a label assigned so it can be easier to understand and work on it. Some of the most important labels available are:
+- _Bug_: When something isn't working.
+- _Documentation_: Improves or adds something to the documents.
+- _Enhancement_: New feature or request.
+- _Question_: further information wanted.
+
+There are some other tags available that you can explore according to your needs. Some special tags like _prio:high_ shouldn't be used unless you are absolutely shure it is really important.
+If the issue is very complicated please create it as a milestone. 
+
+Before submmiting the issue:
+- Check that the issue has not already been reported.
+- Check that the issue has not already been fixed in the latest code.
+- Be clear, concise, and precise using grammatically correct, complete sentences in your summary of the problem.
+- Include any relevant code in the issue.
+
 # Code Review Process
 
 - The code revision MUST be done through GitHub pull requests, with the following RECOMMENDED functionality:
@@ -14,24 +33,6 @@
      - Check if tests of the change were included
      - Review if changes to the documentation should be made
 - The change MAY be merged with the master branch, but only if deemed acceptable and beneficial to the project.
-
-# Release policy.
-
-## 1. Desing a kanban project from scratch to the first release and a new one between releases.
-
-## 2. First release version starts from 1.0.0.
-	2.1. Semantic Versionin standard is followed (x.y.z).
-		2.1.1 x is a mayor release: has changes that may be incompatible with prior major releases.
-		2.1.2 y is a minor release: adds new functionality and bug fixes in a backwards
-		compatible manner.
-		2.1.3 Z is a patch release: adds backwards compatible bug fixes.
-
-## 3. kanban is composed by 5 columns:
-	3.1 To do:
-	3.2 In progress:
-	3.3 Review in progess
-	3.4 Reviewer approved
-	3.5 Done
 
 # Workflow Process
 You should follow the GitFlow workflow for contibuting with this project, which is summed up below:
@@ -81,3 +82,21 @@ Once your pull request is approved, merge your pull request. This will automatic
 After you merge your pull request, delete your branch. This indicates that the work on the branch is complete and prevents you or others from accidentally using old branches. 
 
 For more information, see review the Github Flow documentation.
+
+# Release policy.
+
+## 1. Desing a kanban project from scratch to the first release and a new one between releases.
+
+## 2. First release version starts from 1.0.0.
+	2.1. Semantic Versionin standard is followed (x.y.z).
+		2.1.1 x is a mayor release: has changes that may be incompatible with prior major releases.
+		2.1.2 y is a minor release: adds new functionality and bug fixes in a backwards
+		compatible manner.
+		2.1.3 Z is a patch release: adds backwards compatible bug fixes.
+
+## 3. kanban is composed by 5 columns:
+	3.1 To do:
+	3.2 In progress:
+	3.3 Review in progess
+	3.4 Reviewer approved
+	3.5 Done
