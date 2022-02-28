@@ -7,10 +7,14 @@ is an example of building a OpenAPI-enabled aiohttp server.
 
 This example uses the [Connexion](https://github.com/zalando/connexion) library on top of aiohttp.
 
-## Requirements
-Python 3.5.2+
+## Getting Started
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-## Usage
+### Prerequisites
+What things you need to install the software
+- Python 3.5.2+
+
+### Installing
 To run the server, please execute the following from the root directory:
 
 ```
@@ -30,6 +34,7 @@ Your OpenAPI definition lives here:
 http://localhost:8080/api/v1/openapi.json
 ```
 
+## Running the tests
 To launch the integration tests, use pytest:
 ```
 sudo pip install -r test-requirements.txt
