@@ -40,9 +40,9 @@ You should follow the GitFlow workflow for contibuting with this project, which 
 ## 1. Create a branch
 Create a branch in your repository. A short, descriptive branch name enables your collaborators to see ongoing work at a glance. When creating the branch, use the following naming codes:
 
-- docs/: contributions in the documentation
-- bugfix/: contibutionsfor fixing bugs
-- feature/: change for adding new features
+- docs-: contributions in the documentation
+- bugfix-: contibutionsfor fixing bugs
+- feature-: change for adding new features
 
 By creating a branch, you create a space to work without affecting the default branch. Additionally, you give collaborators a chance to review your work.
 
