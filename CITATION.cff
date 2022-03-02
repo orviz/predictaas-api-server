@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Moreno"
+  given-names: "Borja"
+  orcid: ""
+- family-names: "Calatayud"
+  given-names: "Pablo"
+  orcid: ""
+- family-names: "Escobar"
+  given-names: "Daria"
+  orcid: ""  
+- family-names: "Albon"
+  given-names: "Lucia"
+  orcid: ""  
+title: "PredictaaS"
+version: 1.0.0
+doi: 
+date-released: 2022
+url: "https://github.com/masterdatascience-UIMP-UC/predictaas-api-server"
