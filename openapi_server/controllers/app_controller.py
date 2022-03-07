@@ -6,19 +6,16 @@ Gets the ML application and Updates it.
 
 """
 
-
-from typing import List, Dict
 from aiohttp import web
 
 from openapi_server.models.ml_app import MLApp
-from openapi_server import util
 
 
 async def get_ml_app_by_name(request: web.Request, appname) -> web.Response:
     """
     Get ML application by name.
 
-    Some description of the operation. You can use &#x60;markdown&#x60; here. 
+    Some description of the operation. You can use &#x60;markdown&#x60; here.
 
     :param appname: The name that needs to be fetched
     :type appname: str
