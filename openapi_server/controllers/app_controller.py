@@ -1,6 +1,3 @@
-from typing import List, Dict #noqa
-from aiohttp import web #noqa
-
 from openapi_server.models.ml_app import MLApp
 from openapi_server import util
 
