@@ -1,14 +1,21 @@
-from typing import List, Dict
+"""
+
+Main code.
+
+Gets the ML application and Updates it.
+
+"""
+
 from aiohttp import web
 
 from openapi_server.models.ml_app import MLApp
-from openapi_server import util
 
 
 async def get_ml_app_by_name(request: web.Request, appname) -> web.Response:
-    """Get ML application by name
+    """
+    Get ML application by name.
 
-    Some description of the operation. You can use &#x60;markdown&#x60; here. 
+    Some description of the operation. You can use &#x60;markdown&#x60; here.
 
     :param appname: The name that needs to be fetched
     :type appname: str
@@ -18,7 +25,8 @@ async def get_ml_app_by_name(request: web.Request, appname) -> web.Response:
 
 
 async def update_ml_app(request: web.Request, appname, body) -> web.Response:
-    """Updated app
+    """
+    Update app.
 
     Update ML application by name.
 
