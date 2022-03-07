@@ -1,5 +1,6 @@
+from aiohttp import web
+
 from openapi_server.models.ml_app import MLApp
-from openapi_server import util
 
 
 async def get_ml_app_by_name(request: web.Request, appname) -> web.Response:
