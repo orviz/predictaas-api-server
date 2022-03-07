@@ -1,3 +1,12 @@
+"""
+
+Main code.
+
+Gets the ML application and Updates it.
+
+"""
+
+
 from typing import List, Dict
 from aiohttp import web
 
@@ -6,7 +15,8 @@ from openapi_server import util
 
 
 async def get_ml_app_by_name(request: web.Request, appname) -> web.Response:
-    """Get ML application by name
+    """
+    Get ML application by name.
 
     Some description of the operation. You can use &#x60;markdown&#x60; here. 
 
@@ -18,7 +28,8 @@ async def get_ml_app_by_name(request: web.Request, appname) -> web.Response:
 
 
 async def update_ml_app(request: web.Request, appname, body) -> web.Response:
-    """Updated app
+    """
+    Update app.
 
     Update ML application by name.
 
