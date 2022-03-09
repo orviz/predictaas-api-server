@@ -1,0 +1,16 @@
+name: Publish PredictaaS documentation site
+on:
+  push:
+    branches:
+      - gh-pages
+jobs:
+  Run-MkDocs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      - name: Deploy documentation
+        uses: mhausenblas/mkdocs-deploy-gh-pages@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REQUIREMENTS: requirements.txt
